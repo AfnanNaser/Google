@@ -4,7 +4,7 @@ header {
 	right:30px;
 }
 
-header a:link, a:visited, a:active {
+ .ancohr {
     color: #2a2a2a;
     font-family: arial, sans-serif;
     font-size:12px;
@@ -14,7 +14,24 @@ header a:link, a:visited, a:active {
 	position:relative;
 	top:-10px;
 }
+#all{
+    display: none;
+}
 
+
+hr{
+    margin-top: -7px;
+    margin-bottom: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #80808052;
+}
+.img{
+    top: 0px !important;
+}
 header a:hover {
 	text-decoration:underline;
 }
@@ -52,25 +69,32 @@ div img {
 }
 
 .search {
-	width: 570px;
-	height: 40px;
-	border-top: 1px solid #bdbdbd;
-	border-bottom: 1px solid #d3d3d3;
-	border-right: 1px solid #d3d3d3;
+    width: 570px;
+    height: 50px;
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
     border-radius: 30px;
-	padding-right: 30px;
+    padding-right: 30px;
     font: 16px arial, sans-serif;
-     background: url('https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg');
-     text-indent: 22px;
-	background-repeat:no-repeat;
-	background-position:548px 4px;
-    background-size:27px 27px;
+    background: url(https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg);
+    text-indent: 22px;
+    background: url(https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 530px 11px;
+    background-size: 28px 21px;
 
 	}
-
+.iconSearch{
+    margin: -40px;
+}
+svg{
+    height: 20px;
+}
 .button {
-	border: 1px solid #d3d3d3;
+	border: 0px solid #d3d3d3;
 	background: #f3f3f3;
 	color:#696969;
 	margin-left:4px;
